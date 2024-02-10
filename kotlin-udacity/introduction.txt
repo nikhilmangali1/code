@@ -1,0 +1,21 @@
+*nullable and non nullable data types(increased saftey)
+*kotlin=kotlin+java
+*android studio and intelliJ
+*statically typed,oop,modern
+*open source
+*much less boilerplate than some other languages
+
+
+*JRE is needed for running java and kotlin programs
+*JDK-Java Development Kit (contains JRE) plus different tools to write our code.
+
+* kotlin latest version is 1.8.22
+
+
+//first program in kotlin on intelliJ
+
+fun methodfun()       //fun represents it is a function
+{
+println("hello world") 		//method for printing strings-no semicolon
+}
+

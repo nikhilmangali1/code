@@ -1,0 +1,99 @@
+//all operators in other languages applicable to Kotlin also
+
++,-,*,/,% ==> arithmetic operators
++=,-=,*=,/=,5=  ==> assignment operators
+>,<,>=,<=,==,!=  ==> relational operators
+&&,||,!  ==> logical
+>>,<<,^,!,~  ==> bitwise
+
+//code
+
+val fish=2
+fish.times(6)
+fish.div(10)
+fish.plus(100)
+fish.minus(2)
+
+//using primitive types in kotlin as objects
+
+val a=10
+a.toLong()		//1
+
+//or, to put primitive types(int) in a box
+
+val boxed: Number=1
+boxed.toLong()	//1
+
+//there are two types of variables in kotlin
+1.changeable and
+2.unchangeable
+
+ex: val num=1
+num			//1
+
+num=2		//errork-unchangeable(val)
+
+
+ex2: var mun=2
+mun			//2
+
+mun=100		//changeable(var)
+
+
+mun="nikhil"		//error-once type defined  we can't change its type
+
+
+
+//all variables in kotlin are statically typed =everything is checked statically
+
+
+val b:Byte1=1 	//literal is checked and found that b is byte 
+
+val i:Int =b 	//type mismatched:value i can store only int value but Byte was given
+
+//we can caste
+
+val i:Int=b.toInt()		//here, we casted Byte into Int
+
+
+
+//kotlin supports syntax like below to represent numbers
+
+val oneMillion=1_000_000
+val mobile=970_489_4216
+val hexBytes=0xFF_EC_1A
+val bytes=0b110010010_10111100_110
+
+
+
+//nullability
+
+val i:Int=null		//Int cannot be null
+
+val i:Int?=null		//when Type succeed by ? mark ,it can be null
+
+var MoreValues:List<String?>listOf(null,null)		//elements in the list can be null-?
+
+
+var MoreandMore:List<String>?=null		//list can be null-no elements-?
+
+
+
+//in programming , excalmation mark referred as "Bang"
+
+goldfish!!.eat()
+
+goldfish=null
+goldfish!!.eat()		//Kotlin.KotlinNullPointerException
+
+
+
+//checking in value is null or not
+
+
+var fishFoodTreats=5
+
+return fishFoodTreats?.dec()?:0		//?:->is elvis operator
+
+						//dec()->method to decrease value by 1
+						//inc()->method to increase value by 1

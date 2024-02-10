@@ -1,0 +1,58 @@
+//we can concat two strings using + operator
+
+"hai" + "there"  //result=" hai there"
+
+//example
+
+val nofish=10
+val noplants=20
+
+"We have $nofish fish and $noplant plants" //we have 10 fish and 20 plants
+		or
+"We have ${nofish+noplants} fish and plants"  //we have 30 fish and plants
+
+
+//we can compare two strings that return bool-true/false
+
+val fish="fishhh"
+val plants="plantss"
+
+fish==plants		//false
+fish=fish			//true
+fish!=plants		/true
+
+
+
+//using if-else
+
+val nofish=10
+val noplants=20
+
+if(nofish<noplants) println("more plants")
+else println("more fish")				//more plants
+
+
+
+//ranges in Kotlin
+
+val fish=50
+if(fish in 1..100) prntln("yes")	//yes
+
+
+//ex2:
+
+when(numberOfFish)
+{
+	0->println("empty tank")
+	50->println("full tank")
+	else->println("perfect")
+}						//full tank
+
+
+
+
+
+
+
+
+

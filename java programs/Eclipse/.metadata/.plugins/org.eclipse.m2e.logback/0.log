@@ -1,0 +1,12 @@
+2023-12-28 13:05:56,422 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-28 13:06:33,172 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 19.0.1+10-21
+2023-12-28 13:06:33,233 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@56fc6cfe{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@5b6abcf5{STARTED}}
+2023-12-28 13:06:33,234 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2023-12-28 13:06:33,270 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6782ae9b{HTTP/1.1, (http/1.1)}{127.0.0.1:53621}
+2023-12-28 13:06:33,277 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@341bb128{STARTING}[12.0.3,sto=0] @109852ms
+2023-12-28 13:06:33,891 [qtp630802645-123] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2023-12-28 13:06:34,671 [qtp630802645-123] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2023-12-28 16:24:07,591 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@341bb128{STOPPING}[12.0.3,sto=0]
+2023-12-28 16:24:07,597 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6782ae9b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-02-09 09:23:45,623 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-09 09:23:45,705 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.

@@ -1,0 +1,42 @@
+<students>
+    <student id="501">
+        <name>Pooja</name>
+        <age>20</age>
+    </student>
+    <student id="502">
+        <name>Rama</name>
+        <age>20</age>
+    </student>
+    <student id="503">
+        <name>Amulya</name>
+        <age>20</age>
+    </student>
+    <student id="504">
+        <name>Nithish</name>
+        <age>22</age>
+    </student>
+    <student id="505">
+        <name>Anjali</name>
+        <age>20</age>
+    </student>
+    <student id="506">
+        <name>Akhila</name>
+        <age>20</age>
+    </student>
+    <student id="507">
+        <name>Nikhil</name>
+        <age>21</age>
+    </student>
+    <student id="508">
+        <name>Sai Kiran</name>
+        <age>21</age>
+    </student>
+    <student id="509">
+        <name>Ashwitha</name>
+        <age>20</age>
+    </student>
+    <student id="510">
+        <name>Shivani</name>
+        <age>19</age>
+    </student>
+</students>

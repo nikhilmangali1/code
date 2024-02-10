@@ -1,0 +1,56 @@
+AMs-Aquarium Management System
+
+//main function
+
+--Every function starts with the keyword fun anf followed by function name and with or without arguments based on our requirements 
+
+--main() is the entry point to the every program
+
+--arguments: Array<String> = it takes array of strings
+
+//normal functions
+
+--Every function in kotlin program returns something even if nothing specified.
+
+Ex: 
+
+fuun anything()
+{
+println("hiii")
+}
+anything()
+
+
+
+//main arguments
+
+
+--we can use command line arguments just like java - using String arguments 
+
+
+ex:
+
+fum main(args: Array<String>)
+{
+println("argument 1 ${args[0]}")
+}
+
+
+--we need to specify the string in the place of args[0] like follows:
+
+->  go to run>edit configuration>new configuration > select main method file> give arguments(give argument as nikhil)
+
+--o/p: argument 1 nikhil
+
+
+--Everything in Kotlin we call an expression
+
+
+
+
+//
+
+
+
+
+

@@ -1,0 +1,123 @@
+//mutableListOf()
+
+val myList=mutableListOf("nikhil","srikanth","karan")
+myList=mutableListOf("Narsimlu","Sanju")
+//val cannot be reassigned because val is unchangeable
+
+//but we can manipulate the existing list
+
+val myList=mutableListOf("nikhil","srikanth","karan")
+myList.remove("srikanth")		//true
+
+
+
+//we can create an array of elements
+val ele=arrayOf("ram","sita",123)
+
+//we can create an array of integer elements
+val eleint=intArrayOf(1,2,3)
+
+//we can not add another type to a list of int elements
+println(Arrys.toString(intArrayOf(2,"ayodya")))
+//error-type mismatch:given was String but Int expected
+
+
+//to print arrays
+
+val mix=arrayOf("ram",1)
+println(Arrays.toString(mix))	//error-Arrays
+
+//we need to import package names -> java.util.*
+
+import java.util.*
+val mix=arrayOf("ram",1)
+println(Arrays.toString(mix))	//no error o/p:[ram,1]
+
+
+
+//we can create nested listed/arraysLists
+
+var fish=12
+var plants=2
+
+val arr1=listOf(fish,plants)
+
+val bigARR=arrayOf(arr1,arrayOf("dolphin","shark","starfish","octopus"))
+
+import java.util.*
+println(Arrays.toString(bigARR))
+
+//o/p: [[12,2],[Ljava.lang.String;@1026ed1]]
+
+
+
+//intialize an array with special way
+
+val array=Array(5)
+{
+it*5
+}
+println(array.asList())    //[0,5,10,15,20]
+
+
+
+//printing elements in the list
+var fish=12
+var plants=2
+
+val arr1=listOf(fish,plants)
+
+for(element in arr1)
+ println(element)			//12	5
+
+
+
+//we can print elements along with their index 
+
+
+var fish=12
+var plants=2
+
+val arr1=listOf(fish,plants)
+
+for((intdex,element) in arr1.withIndex())
+{
+  println("Value at $index is $element")
+}
+									//value at 0 is 12
+									//value at 1 is 2
+
+
+
+
+//ranges in Kotlin
+
+ex1:
+for(i in 1..5)
+{
+println(i)
+} 			//1 2 3 4 5
+
+
+ex2:
+for(letter in 'b'..'d')
+{
+println(letter)
+}			//b c d
+
+
+ex3:
+for(digit in 10 downTo 5)
+{
+println(digit)
+}			//10 9 8 7 6 5
+
+
+ex4:
+for(i in 1..7 step 3)
+{
+println(i)
+}			//1 4 7
+
+
+

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Registration form</title>
+</head>
+<body>
+    <br><h4>Go to home :|</h4>
+    <a href="home.html">home</a>
+    <form action="/xampp/htdocs/userprofile.php" method="post">
+        <fieldset>
+            <legend>Registration From</legend>
+            First Name: <input type="text" name="fname"><br/><br/>
+            Last Name: <input type="text" name="lname"><br/><br/>
+            Course: <select name="course">
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="MECH">MECH</option>
+                <option value="AUTO">AUTO</option>
+                <option value="IT">IT</option>
+            </select><br/><br/>
+            Gender:<br/>
+            <input type="radio" name="gender">Male<br/>
+            <input type="radio" name="gender">Female<br/><br/>
+            Phone No.: <input type="number" name="phone"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Password: <input type="password" name="pass"><br><br>
+            Confirm Password: <input type="password" name="pass"><br><br>
+            <input type="submit" value="submit"><br><br>
+            Already have an account? Login <a href="login.html" target="_blank">here</a><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>

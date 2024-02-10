@@ -1,0 +1,6 @@
+#LaptopDetails
+#Wed Nov 08 19:17:34 IST 2023
+Brand=Hp
+Model=pavillion15
+OS=Windows11
+Processor=i5

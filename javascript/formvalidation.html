@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Form - Validation
+        </title>
+        <script>
+            function validate(){
+                var name = document.getElementById("name");
+                var password = document.getElementById("password");
+                
+                if(name.value == "" || password.value == ""){
+                    alert("No blanks valuesallowed");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="/" method="post">
+            <fieldset>
+                <legend>Login Fomr</legend>
+                <label name="name">Name</label>
+                <input type="text" placeholder="username" id="name">
+                <br><br>
+                <label name="pass">Password</label>
+                <input type="password" id="pass" placeholder="password">
+                <br><br>
+                <input type="submit" id="login" value="Login" onclick="validate()">
+            </fieldset>
+        </form>
+    </body>
+</html>
